@@ -1,0 +1,27 @@
+{
+    "hit":{
+        "sounds":[
+            "gun:hit"
+        ],
+        "subtitle":"hit"
+    },
+    "gunshot":{
+        "sounds":[
+            "gun:gunshot/gunshot_0",
+            "gun:gunshot/gunshot_1",
+            "gun:gunshot/gunshot_2",
+            "gun:gunshot/gunshot_3",
+            "gun:gunshot/gunshot_4",
+            "gun:gunshot/gunshot_5",
+            "gun:gunshot/gunshot_6",
+            "gun:gunshot/gunshot_7",
+            "gun:gunshot/gunshot_8",
+            "gun:gunshot/gunshot_9",
+            "gun:gunshot/gunshot_10",
+            "gun:gunshot/gunshot_11",
+            "gun:gunshot/gunshot_12",
+            "gun:gunshot/gunshot_13"
+        ],
+        "subtitle": "gunshot"
+    }
+}

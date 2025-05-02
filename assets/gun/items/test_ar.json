@@ -1,0 +1,84 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:custom_model_data",
+		"index": 0,
+		"on_true": {
+			"type": "minecraft:range_dispatch",
+			"property": "minecraft:custom_model_data",
+			"index": 0,
+			"entries": [
+				{
+					"threshold": 0,
+					"model": {
+						"type": "minecraft:model",
+						"model": "gun:item/test_ar/ads/full"
+					}
+				},
+				{
+					"threshold": 2,
+					"model": {
+						"type": "minecraft:model",
+						"model": "gun:item/test_ar/ads/firering"
+					}
+				}
+			]
+		},
+		"on_false": {
+			"type": "minecraft:range_dispatch",
+			"property": "minecraft:custom_model_data",
+			"index": 0,
+			"entries": [
+				{
+					"threshold": 0,
+					"model": {
+						"type": "minecraft:range_dispatch",
+						"property": "minecraft:custom_model_data",
+						"index": 1,
+						"entries": [
+							{
+								"threshold": 0,
+								"model": {
+									"type": "minecraft:condition",
+									"property": "minecraft:custom_model_data",
+									"index": 1,
+									"on_true": {
+										"type": "minecraft:model",
+										"model": "gun:item/test_ar/sprinting",
+										"tints": []
+									},
+									"on_false": {
+										"type": "minecraft:model",
+										"model": "gun:item/test_ar/normal"
+									}
+								}
+							},
+							{
+								"threshold": 1,
+								"model": {
+									"type": "minecraft:model",
+									"model": "gun:item/test_ar/reload/temp"
+								}
+							}
+						]
+					}
+				},
+				{
+					"threshold": 1,
+					"model": {
+						"type": "minecraft:model",
+						"model": "gun:item/test_ar/normal"
+					}
+				},
+				{
+					"threshold": 2,
+					"model": {
+						"type": "minecraft:model",
+						"model": "gun:item/test_ar/firering"
+					}
+				}
+			]
+		}
+	},
+    "hand_animation_on_swap": false
+}
