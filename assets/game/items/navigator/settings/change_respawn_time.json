@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type" : "model",
+        "model" : "game:navigator/settings/change_respawn_time"
+    }
+}

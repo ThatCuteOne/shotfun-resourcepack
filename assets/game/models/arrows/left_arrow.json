@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "game:item/arrows/select_arrow_left"
+
+	}
+}

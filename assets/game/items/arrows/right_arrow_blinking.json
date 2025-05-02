@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type" : "model",
+        "model" : "game:arrows/right_arrow_blinking"
+    }
+}

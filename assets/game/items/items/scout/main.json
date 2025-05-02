@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type" : "model",
+        "model" : "game:items/generic_gun"
+    }
+}

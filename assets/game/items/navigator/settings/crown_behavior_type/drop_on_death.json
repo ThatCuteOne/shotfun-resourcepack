@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type" : "model",
+        "model" : "game:navigator/settings/crown_behavior_type/drop_on_death"
+    }
+}

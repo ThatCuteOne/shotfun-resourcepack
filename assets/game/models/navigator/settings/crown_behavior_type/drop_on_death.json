@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "game:item/navigator/settings/crown_behavior_type/drop_on_death"
+	}
+}

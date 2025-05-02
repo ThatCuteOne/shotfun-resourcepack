@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type" : "model",
+        "model" : "game:navigator/team/red_team_full"
+    }
+}
